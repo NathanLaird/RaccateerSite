@@ -68,7 +68,7 @@ main {
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(45deg, #ffd166, #ef476f, #8a8fff, #ffd166);
+    background: linear-gradient(45deg, #ffd166, #2d2d2d, #8a4fff, #ffd166);
     z-index: -1;
     animation: borderAnimation 4s linear infinite;
 }
@@ -201,7 +201,7 @@ footer {
     color: #ffffff;
     font-size: 1.2rem;
     margin: 0 20px;
-    text-shadow: 2px 2px 0 #ef476f;
+    text-shadow: 2px 2px 0 #2d2d2d;
 }
 
 .counter {
@@ -243,7 +243,7 @@ footer {
 .description p::after {
     content: '|';
     display: inline-block;
-    color: #ef476f;
+    color: #ffd166;
     animation: blink 1s step-end infinite;
 }
 
