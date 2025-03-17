@@ -3,36 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raccateer Site</title>
+    <title>Raccateer - Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Raccateer</h1>
-    </header>
-    
-    <main>
-        <section class="content">
-            <h2>About</h2>
-            <p>This is a simple website hosted on GitHub Pages.</p>
-            
-            <div class="gif-container">
-                <!-- Add your GIFs here -->
-                <img src="images/example.gif" alt="Example GIF">
+    <div class="container">
+        <header>
+            <img src="images/RaccateerLogo.png" alt="Raccateer Logo" class="logo">
+        </header>
+        
+        <main>
+            <div class="description">
+                <p>Raccateer is a production sim idle game. Upgrade your facilities and recruit a crack team of unique raccoons, and manage their unique blend of personality quirks to build.</p>
+                <h2>Store Page Under Construction</h2>
             </div>
             
-            <div class="links">
-                <h2>Useful Links</h2>
-                <ul>
-                    <li><a href="https://github.com">GitHub</a></li>
-                    <li><a href="https://example.com">Example Link</a></li>
-                </ul>
+            <div class="construction-gif">
+                <img src="images/UnderConstructionLoop.gif" alt="Under Construction" class="construction">
             </div>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2023 Raccateer Site</p>
-    </footer>
+        </main>
+        
+        <footer>
+            <div class="marquee-container">
+                <marquee scrollamount="5" behavior="scroll" direction="left">
+                    <span class="marquee-item">🦝 RACCATEER - COMING SOON! 🦝</span>
+                    <span class="marquee-item">🦝 MANAGE YOUR RACCOON CREW! 🦝</span>
+                    <span class="marquee-item">🦝 BUILD YOUR PRODUCTION EMPIRE! 🦝</span>
+                    <span class="marquee-item">🦝 RACCATEER - COMING SOON! 🦝</span>
+                </marquee>
+            </div>
+            
+            <div class="counter">
+                <div class="counter-label">VISITORS:</div>
+                <div class="counter-number">00001337</div>
+            </div>
+            
+            <div class="best-viewed">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEKklEQVRoge2ZTWhcVRTHf+fNJE3TJk0aQpM0H6UWpLEtVSyiCxERXbgRBDeCCxeuXLhxJbgQXAkuXLpwIbgRRBCKCxGKINQPUGtDTGyTpmnatPk0M5P5uDPn/F3MvPdm8t6beZkkGLH3wOHde+fcc/733I97z4NbuIX/NaRVg8PDw8+o6quq+gjQC/QABaAELAHzwA/At6p6amxs7Kt29W5JwMjIyAeq+g7QkeD1FeAT4P2xsbGZVnRvWsDw8PCzqnoC6E7qG8MicEhVPx8fH19J6tSUgJGRkQeAM0Bnq+piWAL2q+rPSRwSCRgaGtoJnAW2taMshiVgn6r+Fdc4dg0MDg52AKdoU4CIICKICACqiqqiqpFrALuAk0NDQ7G5HitAVY8Bu5MqFBFEhEwmQyaTQUQiQdM0JZvNks1mSdM0ek9VUVWAXcDRuDYbCnjppZfuBV5IqkxEyGazOOdwzpHL5SJLmqZkMhmy2SxpmkaC4vdV9cXnn3/+no3abChAVd9KGl1jPJ/P45wjn8+Tz+cjEcYYEaGjo4OOjg5EJJpJVY0sn8+Tz+dxztHR0YGIRCKstTjnUNW3k+hcJ2BoaOhO4LkkikQE5xxdXV04584TUK1WqVarAFhrMcZEYqy1WGupVCqUy2XK5TLVapVarUatVsM5R1dXF845RCR6xhjz/MDAQN9GujcScAjoTqLGGENPTw/OOXp7e+nt7aWvrw/nHNVqlUqlQqVSwVobTbm1lmq1SrlcplQqUSwWKRaLlMtlarUa1lqcc/T29tLX10dPTw/OOYwxiEi3qh4CPtpI/zoBI+fOHXzs9GkAMtYyMDCAMQZrLSKCtRYRwRgTTbExJgplYwzGGNI0JU3TKMzWQthaS19fH/39/TjnojXjnKPDe+6/+WY9/qMYj2Ld5vLCBQDu7OmhUCjgnItC1RgTLU5jTJTlRQTvfZTBa7UaaZpSq9XI5XL09/czMDBAoVCIRKVpSrFYZHZmBmZnL4r/KMbXCbh3cJDFxUX6+/vJ5/PRgjTGRKnRGBOFrzGGNE2pVCqUy2VKpRKlUolKpYK1lkKhwODgIHfddRf5fD4KtzRNWVhYYHp6GpaXL4r/KMZjd+JCoUChUCCXy0ULcm2nNcZEU2+MwXtPsVhkcXGRhYUFisUiaZrS3d3N0NAQd999N7lcLsryxhgWFxeZnJyEtcUbx3gkYHh4+GHgx6QKRYRcLkc+n6ezs5NcLhcJMMZEU1+tVimVSiwvL1MqlUjTlK6uLgYGBrjjjjvo7OyM1oQxhlKpxMTEBCwsXBT/UYyvE/DCCy/8BXzYijLvPWmaUqvVSNM0yvLWWpxzdHd309/fT09PD52dnVHIee9ZWVlhcnISZmcviv8oxmN34oGBgU9V9bUkym7hFm7hMvwDT/sM1ROKY8AAAAAASUVORK5CYII=" alt="Best viewed with Netscape Navigator">
+            </div>
+        </footer>
+    </div>
 </body>
 </html> 
