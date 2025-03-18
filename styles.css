@@ -97,6 +97,8 @@ main {
     overflow: hidden;
     box-shadow: 8px 8px 0 rgba(45,45,45,0.5);
     position: relative;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .construction-placeholder {
@@ -117,6 +119,8 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
+    max-height: 60vh;
+    object-fit: contain;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     position: relative;
