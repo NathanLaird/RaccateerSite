@@ -119,6 +119,8 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
+    max-height: 500px;
+    display: block;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
     position: relative;
@@ -138,6 +140,10 @@ main {
     
     .description h2 {
         font-size: 1.5rem;
+    }
+    
+    .construction {
+        max-height: 300px;
     }
 }
 
