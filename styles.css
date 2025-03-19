@@ -493,7 +493,7 @@ nav ul li a.active {
     display: inline-block;
     padding: 12px 24px;
     font-family: 'Press Start 2P', monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #352a55;
     text-decoration: none;
     background-color: #ffd166;
@@ -502,6 +502,7 @@ nav ul li a.active {
     box-shadow: 4px 4px 0 rgba(45, 45, 45, 0.3);
     transition: all 0.2s ease;
     margin-top: 1rem;
+    padding: 16px 32px;
 }
 
 .subscribe-button:hover {
