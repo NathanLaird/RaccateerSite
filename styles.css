@@ -510,3 +510,18 @@ nav ul li a.active {
     transform: translateY(-2px);
     box-shadow: 6px 6px 0 rgba(45, 45, 45, 0.3);
 }
+
+.blink {
+    animation: blink 1s step-end infinite;
+}
+
+.cta-container {
+    text-align: center;
+    margin: 0 auto 40px;
+    padding: 10px;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
