@@ -141,13 +141,9 @@
         <section class="mailing-list-section">
             <h2>Stay Updated</h2>
             <p>Join our mailing list to get the latest news about Raccateer's release!</p>
-            <form id="mailing-list-form" action="https://formsubmit.co/raccateerdev@gmail.com" method="POST">
-                <input type="hidden" name="_subject" value="New Raccateer Mailing List Subscriber">
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="https://nathanlaird.github.io/RaccateerSite/thanks.html">
-                <input type="email" id="email" name="email" placeholder="your@email.com" required>
-                <button type="submit">Subscribe</button>
-            </form>
+            <div class="google-form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeMx8jDlE_vsn1sJKMACHBKuvX0vUA6mU1hhkGNBZ1nLR3c7w/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
         </section>
         
         <footer>
@@ -210,7 +206,7 @@
                 placeholder.classList.add('hidden');
             }
             
-            // The mailing list form is now handled by FormSubmit.co
+            // The mailing list form is now handled by Google Forms
         });
     </script>
 </body>
