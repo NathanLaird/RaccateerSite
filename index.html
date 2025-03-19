@@ -19,13 +19,13 @@
         
         <main>
             <div class="description">
-                <p>Raccateer is a production sim idle game. Take charge of a hoard of raccoons and build your trash empire, while managing their unique quirks.</p>
+                <p>Raccateer is a production sim idle game. Take charge of a horde of raccoons and build your trash empire!</p>
             </div>
             
             <!-- Material Management (renamed to Trash to Treasure) -->
             <section class="featured-section">
                 <h2>Trash to Treasure to Trash</h2>
-                <p>Run your supply chain from trash to tech to waste and back to trash again!</p>
+                <p>Run your supply chain from trash to tech and back to trash again!</p>
                 <div class="video-container">
                     <video loop muted autoplay playsinline>
                         <source src="videos/MaterialsPan.mp4" type="video/mp4">
@@ -60,7 +60,7 @@
                 
                 <div class="feature-section">
                     <h2>Pull Off Colorful Combos</h2>
-                    <p>Purchase new skins and hats for your furry laborers to optimize their skills and personalities.</p>
+                    <p>Acquire new skins and hats for your furry laborers to complement their skills and personalities.</p>
                     <div class="video-container">
                         <video loop muted autoplay playsinline>
                             <source src="videos/FastTossing1.mp4" type="video/mp4">
@@ -106,6 +106,23 @@
                 </div>
             </section>
             
+            <!-- Static Image Sections -->
+            <section class="featured-section">
+                <h2>Planned Obsolescence</h2>
+                <p>Today's tech is tomorrow's trash. Close the loop and get more trash today!</p>
+                <div class="image-container">
+                    <img src="images/ConveyorExample.png" alt="Conveyor Belt Example" class="feature-image">
+                </div>
+            </section>
+            
+            <section class="featured-section">
+                <h2>Supply Chain Upgrades</h2>
+                <p>Manage and upgrade your facilities for maximum trash throughput.</p>
+                <div class="image-container">
+                    <img src="images/UpgradeMenu.png" alt="Upgrade Menu" class="feature-image">
+                </div>
+            </section>
+            
             <!-- Under Construction Section at Bottom -->
             <section class="construction-section">
                 <h2>Store Page Under Construction</h2>
@@ -115,6 +132,19 @@
                 </div>
             </section>
         </main>
+        
+        <!-- Mailing List Signup -->
+        <section class="mailing-list-section">
+            <h2>Stay Updated</h2>
+            <p>Join our mailing list to get the latest news about Raccateer's release!</p>
+            <form id="mailing-list-form" action="https://formsubmit.co/raccateerdev@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New Raccateer Mailing List Subscriber">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://nathanlaird.github.io/RaccateerSite/thanks.html">
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
         
         <footer>
             <div class="marquee-container">
@@ -175,6 +205,8 @@
             if (gifImage.complete) {
                 placeholder.classList.add('hidden');
             }
+            
+            // The mailing list form is now handled by FormSubmit.co
         });
     </script>
 </body>

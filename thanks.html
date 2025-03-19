@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Subscribing! - Raccateer</title>
+    <link rel="preload" href="images/RaccateerLogo.png" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="showcase.css">
+    <style>
+        .thanks-container {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px;
+            padding: 30px;
+            background-color: #ffffff;
+            border: 4px solid #2d2d2d;
+            box-shadow: 8px 8px 0 rgba(45,45,45,0.5);
+            position: relative;
+            image-rendering: pixelated;
+        }
+        .thanks-container h1 {
+            font-family: 'Press Start 2P', cursive;
+            color: #2d2d2d;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 0 #ffd166;
+        }
+        .thanks-container p {
+            font-family: 'VT323', monospace;
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+        }
+        .return-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-family: 'Press Start 2P', monospace;
+            font-size: 1rem;
+            color: #2d2d2d;
+            text-decoration: none;
+            background-color: #ffd166;
+            border: 3px solid #2d2d2d;
+            box-shadow: 5px 5px 0 rgba(45,45,45,0.5);
+            transition: all 0.2s ease;
+        }
+        .return-button:hover {
+            transform: translate(-2px, -2px);
+            box-shadow: 7px 7px 0 rgba(45,45,45,0.5);
+        }
+        .raccoon-gif {
+            max-width: 200px;
+            margin: 20px auto;
+            display: block;
+            image-rendering: pixelated;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/RaccateerLogo.png" alt="Raccateer Logo" class="logo">
+        </header>
+        
+        <main>
+            <div class="thanks-container">
+                <h1>Thanks for Subscribing!</h1>
+                <p>Your support is greatly appreciated!</p>
+                <p>We'll keep you updated on all the latest developments!</p>
+                <img src="images/UnderConstructionLoop.gif" alt="Happy Raccoon" class="raccoon-gif">
+                <a href="index.html" class="return-button">Return to Home</a>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="marquee-container">
+                <marquee scrollamount="5" behavior="scroll" direction="left">
+                    <span class="marquee-item">🦝 RACCATEER - COMING SOON! 🦝</span>
+                    <span class="marquee-item">🦝 MANAGE YOUR RACCOON CREW! 🦝</span>
+                    <span class="marquee-item">🦝 BUILD YOUR PRODUCTION EMPIRE! 🦝</span>
+                    <span class="marquee-item">🦝 RACCATEER - COMING SOON! 🦝</span>
+                </marquee>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
