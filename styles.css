@@ -488,3 +488,24 @@ nav ul li a.active {
     border-radius: 5px;
     background-color: rgba(31, 22, 54, 0.7);
 }
+
+.subscribe-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1rem;
+    color: #352a55;
+    text-decoration: none;
+    background-color: #ffd166;
+    border: 3px solid #ffd166;
+    border-radius: 5px;
+    box-shadow: 4px 4px 0 rgba(45, 45, 45, 0.3);
+    transition: all 0.2s ease;
+    margin-top: 1rem;
+}
+
+.subscribe-button:hover {
+    background-color: #ffe75e;
+    transform: translateY(-2px);
+    box-shadow: 6px 6px 0 rgba(45, 45, 45, 0.3);
+}
